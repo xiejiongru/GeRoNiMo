@@ -1,9 +1,10 @@
 <div align="center">
     <article style="display: flex; flex-direction: column; align-items: center; justify-content: center;">
-        <p align="center"><img width="400" src="./icon2.png" /></p>
+        <p align="center"><img width="400" src="https://raw.githubusercontent.com/xiejiongru/GeRoNiMo/master/2024/05/upgit_20240513_1715611797.png"/></p>
         <h1 style="width: 100%; text-align: center;">GeRoNiMo</h1>
     </article>
 </div>
+
 
 
 
@@ -12,7 +13,7 @@
 
 
 
-**GeRoNiMo** (Outil de Gestion de Rondes au Niveau du Mobilier urbain) est un outil de mise en place et synchronisation de rondes pour la gestion de mobilier urbain à partir d'une base de données pour les collectivités territoriales.
+**[GeRoNiMo](src="https://raw.githubusercontent.com/xiejiongru/GeRoNiMo/master/2024/05/Diapo__Projet%20dev.pptx.pdf" )**  (Outil de Gestion de Rondes au Niveau du Mobilier urbain) est un outil de mise en place et synchronisation de rondes pour la gestion de mobilier urbain à partir d'une base de données pour les collectivités territoriales.
 
 
 
@@ -20,9 +21,10 @@
 
 - 3 Mai 2024 [v0.1] : 1......
 
-  
+   
 
-## Fonctionnalités 
+## Fonctionnalités
+
 - Création de rondes en sélectionnant des points sur une carte 
 
 - Calcul d'itinéraires et d'isochrones à partir des points sélectionnés 
@@ -35,7 +37,7 @@
 
 ## Installation
 
-1. Téléchargez et installez [QGIS](https://www.qgis.org/en/site/) et clonez le repo :
+1. Téléchargez et installez [QGIS](https://www.qgis.org/en/site/), [QField](https://qfield.org/) et clonez le repo :
 
    ```git
    git clone gitgit@gitlab.com:Thomas.Andre.Archgeo/projet-geodev-pdi21.git
@@ -45,7 +47,7 @@
 
    
 
-   <img src="https://raw.githubusercontent.com/xiejiongru/GeRoNiMo/master/2024/05/upgit_20240510_1715301380.png" alt="image-20240509204857740" style="zoom: 67%;" />
+   <img width="800" src="https://raw.githubusercontent.com/xiejiongru/GeRoNiMo/master/2024/05/upgit_20240510_1715301380.png" alt="image-20240509204857740" />
 
    
 
@@ -65,49 +67,50 @@
 
 1. Lancez Qfield et cliquez sur le "Projet QFieldCloud".
 
-   <img src="https://raw.githubusercontent.com/xiejiongru/GeRoNiMo/master/2024/05/upgit_20240510_1715301386.jpg" alt="SmartSelect_20240226_145243" style="zoom: 25%;" />
-
+   <img width="400" src="https://raw.githubusercontent.com/xiejiongru/GeRoNiMo/master/2024/05/upgit_20240510_1715301386.jpg" alt="SmartSelect_20240226_145243" />
    
-
+   
+   
 2. Cliquez "Répertoire de QField".
 
-   <img src="https://raw.githubusercontent.com/xiejiongru/GeRoNiMo/master/2024/05/upgit_20240510_1715301391.jpg" alt="SmartSelect_20240226_145303" style="zoom: 25%;" />
-
+   <img width="400" src="https://raw.githubusercontent.com/xiejiongru/GeRoNiMo/master/2024/05/upgit_20240510_1715301391.jpg" alt="SmartSelect_20240226_145303" />
    
-
+   
+   
 3. Choisissez "Importer un projet à partir d'un dossier" (ou avec votre moyen préféré).
 
-   <img src="https://raw.githubusercontent.com/xiejiongru/GeRoNiMo/master/2024/05/upgit_20240510_1715301406.jpg" alt="SmartSelect_20240226_145330" style="zoom: 25%;" />
-
+   <img width="400" src="https://raw.githubusercontent.com/xiejiongru/GeRoNiMo/master/2024/05/upgit_20240510_1715301406.jpg" alt="SmartSelect_20240226_145330" />
    
-
+   
+   
 4. Importez un fichier, ouvriez un projet.
 
-   <img src="https://raw.githubusercontent.com/xiejiongru/GeRoNiMo/master/2024/05/upgit_20240510_1715301414.jpg" alt="SmartSelect_20240226_145432" style="zoom:25%;" />
-
+   <img width="400" src="https://raw.githubusercontent.com/xiejiongru/GeRoNiMo/master/2024/05/upgit_20240510_1715301414.jpg" alt="SmartSelect_20240226_145432" />
    
-
+   
+   
 5. Sur le côté gauche de l'interface, on trouve les couches configurées par l'administrateur.
 
-   <img src="https://raw.githubusercontent.com/xiejiongru/GeRoNiMo/master/2024/05/upgit_20240510_1715301417.jpg" alt="SmartSelect_20240226_145532" style="zoom:25%;" />
-
+   <img width="400" src="https://raw.githubusercontent.com/xiejiongru/GeRoNiMo/master/2024/05/upgit_20240510_1715301417.jpg" alt="SmartSelect_20240226_145532" />
    
-
+   
+   
 6. Sélectionnez la couche vectorielle correspondante et cliquez sur les données ponctuelles correspondantes pour passer en mode édition.
 
-   <img src="https://raw.githubusercontent.com/xiejiongru/GeRoNiMo/master/2024/05/upgit_20240510_1715301420.jpg" alt="SmartSelect_20240226_145621" style="zoom:25%;" />
-
+   <img width="400" src="https://raw.githubusercontent.com/xiejiongru/GeRoNiMo/master/2024/05/upgit_20240510_1715301420.jpg" alt="SmartSelect_20240226_145621" />
    
-
+   
+   
 7. Modification des données.
 
-   <img src="https://raw.githubusercontent.com/xiejiongru/GeRoNiMo/master/2024/05/upgit_20240510_1715301424.jpg" alt="SmartSelect_20240226_150905" style="zoom:25%;" />
-
+   <img width="400" src="https://raw.githubusercontent.com/xiejiongru/GeRoNiMo/master/2024/05/upgit_20240510_1715301424.jpg" alt="SmartSelect_20240226_150905" />
    
-
+   
+   
 8. Cliquez sur "synchronisation" pour synchroniser les données.
 
-   <img src="https://raw.githubusercontent.com/xiejiongru/GeRoNiMo/master/2024/05/upgit_20240510_1715301427.jpg" alt="SmartSelect_20240226_145549" style="zoom:25%;" />
+   <img width="400" src="https://raw.githubusercontent.com/xiejiongru/GeRoNiMo/master/2024/05/upgit_20240510_1715301427.jpg" alt="SmartSelect_20240226_145549" />
+   
 
 
 
